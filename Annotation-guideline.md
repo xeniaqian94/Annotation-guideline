@@ -1,5 +1,8 @@
-* Corpus Analysis Annotation Guideline	
-    - Selection Procedure for Tags	
+# Corpus Analysis Annotation Guideline
+
+## Table of Contents 
+
+* Selection Procedure for Tags	
 * Initial Annotation Guideline	
     - An Annotation Example in the Email	
     - Annotation Guideline	
@@ -8,36 +11,30 @@
     - The First Author Addressing Concerns	
     - Annotator 2 Consenting	
 * Revision to Annotation Guideline	
-
-=======================================
  
-### Corpus Analysis Annotation Guideline
-
-#### Selection Procedure for Tags
+## Selection Procedure for Tags
 
 The first author (FA) piloted annotating a subset of captions on the word/phrase-level, until saturation, which resulted in the 8 single-type tags in Figure 1. This process is very similar to qualitatively coding. FA summarized it as an “Initial Annotation Guideline” and sent out emails that point annotators to the interface, the guideline, and the example. One annotator proposed changing the annotation level into clause/sentence (Section 2.1), a necessary level of output unit to inform designing a captioning system. Facing difficulties tagging clauses/sentences with multiple intertwined aspects, we then piloted (until saturation) to add the 7 compound tags in Figure 1. Annotators were encouraged to add new tags during annotation, but none were added. 
 
 Among the 8 single-type tags, FA populated “Count” as one of the 8 single-type tags. This is because that before seeing any realistic captions, FA considers it necessary to describe number of elements in figure captions. However, spans of “Count” never showed up in the corpus, so in the final annotation guideline, this tag disappeared.  
 
 
-=======================================
+## Initial Annotation Guideline
 
-### Initial Annotation Guideline
+### An Annotation Example in the Email 
 
-#### An Annotation Example in the Email 
+![An Annotation Example - please click](./Annotation-guideline.png)
 
-![An Annotation Example - please click](Annotation-guideline.png)
-
-#### Annotation Guideline
+### Annotation Guideline
 
 
-Introduction
+#### Introduction
 
 In this task, you are invited to tag word spans into different caption unit types. This annotation is to conduct a small-scale corpus analysis on human caption. 
 
 Our hypothesis is that natural and complex human caption paragraphs consist of small, fundamental caption units, whose types are a finite set such as comparison, presenting a value, min/max, re-iterating the title, insights/trends.
 
-Metadata information
+#### Metadata information
 
 To get started with each annotation, the paragraph starts with some metadata information, including
 	• exercise identifier, 
@@ -49,11 +46,11 @@ Alternative, you may download figures from [google_drive_link]. The directory is
 
 If a paragraph lacks corresponding figure, or is presenting a raw table, please tag the exercise identifier as "Broken (this exercise lacks figure OR is a table)". Otherwise, there is no need to tag these metadata information. 
 
-Example
+#### Example
 
 For example, the first caption paragraph starts with a sentence "1002 IELTS_Writing_Task_1_Pie_Chart.gif You should spend about 20 minutes on this task. Write at least 150 words.". 1002 and the .gif filename. 
 
-Adding new tags
+#### Adding new tags
 
 We encourage you to add new tags if some span is a functional caption unit that does not fit into these categories. 
 
@@ -61,7 +58,7 @@ Please feel free to add new tags into the set (to add new tags, please visit "Pr
 
 For example, as an open question, do we need a tag called "transition word"? 
 
-Definition of tags
+#### Definition of tags
 
 Below are the list of pre-defined tags and their definition. 
 
@@ -101,7 +98,7 @@ span that describe a high-level insight of the figure.
 
 tag the exercise identifier (3-4 digits at the beginning) as broken exercise. 
 
-Final note
+#### Final note
 
 In the previous iteration, we hear comments about 
 
@@ -117,9 +114,9 @@ Once again, thanks for your annotation!
 
 
 
-### Switching the Annotation Level 
+## Switching the Annotation Level 
 
-#### Annotator 2 Raising Concerns
+### Annotator 2 Raising Concerns
 
 “Thanks for sharing this. I have a question. Do you expect to have word (or phrase)-level annotations? If the purpose of this study is getting insight about the flow of caption sentences in the paragraph. I think the annotation should be sentence-level (of course there could be some difficult cases to annotate, but if there are two options of mixed annotation per words or an annotation for sentence, I think we should prefer the latter). I don’t think annotations like value - trend – value - value - legends might not be helpful in that sense. but according to your example, it seems that you did per word in many cases mainly for labels and values. How do you think?”
 
@@ -131,7 +128,7 @@ For the third, I’m not sure word-level annotation would be helpful to this int
  
 As a minor comment, it would be good if you can delete first few sentences which are the same (the instruction for test) for all cases.”
 
-#### The First Author Addressing Concerns 
+### The First Author Addressing Concerns 
 
 “Agreed with you suggestion on sentence level annotation. Not word level - it looks a bit petty too.
 
@@ -147,15 +144,12 @@ If yes to both questions, how about this revised guideline below? If the guideli
 2. Spans is mostly sentence-level, but does not necessarily need to be the whole sentence (from beginning to period). Transition word shall be excluded at best effort. 
 3. Spans could be at half-sentence (clause) level, separated by comma”
 
-#### Annotator 2 Consenting
+### Annotator 2 Consenting
 
 “I would say yes to both questions. For the first sentence, I think that sentence can be considered as ‘min/max’ and ‘value’ one after another or one sentence with two tags. All the guidelines are looking good. Thanks.”
 
 
-=======================================
-
-
-### Revision to Annotation Guideline
+## Revision to Annotation Guideline
 
 All other parts of the guideline is the same, except we added tag sets such as “[Single] min/max”, “[Single] value”, and “[Compound] min/max + value”. To differentiate [Single] vs. [Compound], here are three examples:
 

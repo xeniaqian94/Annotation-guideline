@@ -1,13 +1,13 @@
-- Corpus Analysis Annotation Guideline	2
-    - Selection Procedure for Tags	2
-- Initial Annotation Guideline	2
-    - An Annotation Example in the Email	2
-    - Annotation Guideline	3
-- Switching the Annotation Level	4
-    - Annotator 2 Raising Concerns	4
-    - The First Author Addressing Concerns	4
-    - Annotator 2 Consenting	4
-- Revision to Annotation Guideline	5
+* Corpus Analysis Annotation Guideline	
+    - Selection Procedure for Tags	
+* Initial Annotation Guideline	
+    - An Annotation Example in the Email	
+    - Annotation Guideline	
+* Switching the Annotation Level	
+    - Annotator 2 Raising Concerns	
+    - The First Author Addressing Concerns	
+    - Annotator 2 Consenting	
+* Revision to Annotation Guideline	
 
 =======================================
  
@@ -26,7 +26,7 @@ Among the 8 single-type tags, FA populated “Count” as one of the 8 single-ty
 
 #### An Annotation Example in the Email 
 
-![An Annotation Example](Annotation-guideline.png)
+![An Annotation Example - please click](Annotation-guideline.png)
 
 #### Annotation Guideline
 

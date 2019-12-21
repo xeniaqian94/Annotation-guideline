@@ -4,7 +4,7 @@
 
 * Selection Procedure for Tags	
 * Initial Annotation Guideline	
-    - The Original Word/phrase-level Annotation Example	
+    - The Old Word/phrase-level Annotation Example	
     - Annotation Guideline	
 * Switching the Annotation Level	
     - Annotator 2 Raising Concerns	
@@ -22,7 +22,7 @@ Among the 8 single-type tags, FA populated “Count” as one of the 8 single-ty
 
 ## Initial Annotation Guideline
 
-### The Original Word/phrase-level Annotation Example
+### The Old Word/phrase-level Annotation Example
 
 ![An Annotation Example - please click](./Annotation-guideline.png)
 
@@ -38,8 +38,8 @@ Our hypothesis is that natural and complex human caption paragraphs consist of s
 #### Metadata information
 
 To get started with each annotation, the paragraph starts with some metadata information, including
-	• exercise identifier, 
-	• writing hints, 
+- Exercise identifier, 
+- Writing hints, 
 
 Please use these information to locate the actual figures from this pdf [pdf_url]. Note that some figures break in half by pdf page boundaries.
 
@@ -165,6 +165,11 @@ Generally, single level tags would be very helpful to post-hoc analysis. Neverth
 
 ## Final Guideline 
 
+### The Final Annotation Examples
+
+![A Final Annotation Example - please click](./Annotation-example-final-1.png)
+
+
 ### Introduction
 
 In this task, you are invited to tag clause-level or sentence-level spans into different caption types. Clauses are comma-separated half sentence. This annotation is to conduct a small-scale corpus analysis on human captions. 
@@ -173,8 +178,8 @@ Metadata information to locate exercise
 
 For each annotation, the paragraph starts with some metadata information, including
 
-• exercise ID, 
-• IELTS exercise writing hints (optional, some may have, some may not)
+- Exercise ID, 
+- IELTS exercise writing hints (optional, some may have, some may not)
  
 Please use the exercise ID to locate the actual figures from this pdf [URL]. Note that some figures break in half by pdf page boundaries.
 If a paragraph lacks corresponding figure from the pdf, or is presenting a raw table, please tag the exercise identifier as "Broken exercise". If the figure is present, there is no need to tag any metadata information. 
@@ -187,7 +192,7 @@ For example, one caption paragraph starts with a sentence "1002 IELTS_Writing_Ta
 
 We encourage you to add new tags if some span does not fit into existing tags. Existing tags are defined as below. If you add new tags, please let the admin know about it too. 
 
-To add new tags, please visit "Projects" on the right corner" -> "Labels" on the left bar), and add corresponding tag definition and name in the "Projects" -> "Guideline" (section "Definition of tags". 
+To add new tags, please visit "Projects" on the right corner" -> "Labels" on the left bar), and add corresponding tag definition and name in the "Projects" -> "Guideline" (section "Definition of tags"). 
 
 ### Q & A
 

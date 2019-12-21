@@ -11,6 +11,7 @@
     - The First Author Addressing Concerns	
     - Annotator 2 Consenting	
 * Revision to Annotation Guideline	
+* Final Guideline
  
 ## Selection Procedure for Tags
 
@@ -151,7 +152,7 @@ If yes to both questions, how about this revised guideline below? If the guideli
 
 ## Revision to Annotation Guideline
 
-All other parts of the guideline is the same, except we added tag sets such as “[Single] min/max”, “[Single] value”, and “[Compound] min/max + value”. To differentiate [Single] vs. [Compound], here are three examples:
+All other parts of the guideline stay the same, except we added tag sets such as “[Single] min/max”, “[Single] value”, and “[Compound] min/max + value”. To differentiate [Single] vs. [Compound], here are three examples:
 
 1. For a sentence like "In 1955, the youngest age group had the fewest weight issues, with more than 70% of 20-29-year-olds being assessed as having a healthy weight.” 
 
@@ -160,6 +161,87 @@ Generally, single level tags would be very helpful to post-hoc analysis. Neverth
 2. Compound tags seem more preferred for punctuation-inseparable sentences like “The two least important reasons for going to work by car, with 14% and 11%, is that people need to ...”. 
 
 3. I felt challenging about the sentence "Smoke levels increased a little more sharply during this time and peaked in 1900 at about 500 micrograms.”. Which I tag as “[Single] Overall trend” followed by “[Compound] Maximum + value”. 
+
+
+## Final Guideline 
+
+### Introduction
+
+In this task, you are invited to tag clause-level or sentence-level spans into different caption types. Clauses are comma-separated half sentence. This annotation is to conduct a small-scale corpus analysis on human captions. 
+
+Metadata information to locate exercise
+
+For each annotation, the paragraph starts with some metadata information, including
+
+• exercise ID, 
+• IELTS exercise writing hints (optional, some may have, some may not)
+ 
+Please use the exercise ID to locate the actual figures from this pdf [URL]. Note that some figures break in half by pdf page boundaries.
+If a paragraph lacks corresponding figure from the pdf, or is presenting a raw table, please tag the exercise identifier as "Broken exercise". If the figure is present, there is no need to tag any metadata information. 
+
+### Example
+
+For example, one caption paragraph starts with a sentence "1002 IELTS_Writing_Task_1_Pie_Chart.gif You should spend about 20 minutes on this task. Write at least 150 words.". 1002 and the .gif filename. The rest are writing hints. 
+
+### Adding new tags
+
+We encourage you to add new tags if some span does not fit into existing tags. Existing tags are defined as below. If you add new tags, please let the admin know about it too. 
+
+To add new tags, please visit "Projects" on the right corner" -> "Labels" on the left bar), and add corresponding tag definition and name in the "Projects" -> "Guideline" (section "Definition of tags". 
+
+### Q & A
+
+Q: "Sometimes it is hard to distinguish "Compare" vs. "Trend", because trend/insight statements are mostly based on value comparison...." How to distinguish? 
+
+A: We define "Compare" are describing two or three (essentially, a few) labels. While "Trend" usually describe across many labels, in a macro scale. 
+
+### Definition of tags
+
+Aside from the “Broken exercise” auxiliary tag, we have two types of tags. “Single” tag and “Compound” tag. E.g. in the interface, you would see “[Single] min/max”, “[Single] value”, and “[Compound] min/max + value”. 
+
+The difference between “[Single] …” tag and “[Compound]" tag:
+
+1. Within a sentence, please use "[Single] … " tag if there are multiple clauses who are separable and independently meaningful from each other, where each maps to one “[Single] XXX” tag, i.e. tags occur one after another, sequentially. E.g. "In 1955, the youngest age group had the fewest weight issues, with more than 70% of 20-29-year-olds being assessed as having a healthy weight.” has first [Single] max/min/majority/minority then [Single] value. 
+
+2.  “[Compound] ” tags are for cases when clauses are not independently meaningful to be tagged as a "[Single] " tag. E.g. “The two least important reasons for going to work by car, with 14% and 11%, is that people need to …” whose tag is “[Compound] Max/min + supporting value". "with 14% and 11%" is not a clause, and it is embedded in a max/min description. 
+
+For [Single] tags, the definitions are as follows: 
+
+1. [Single] Compare (between *two* values, e.g. higher, lower, larger, smaller):
+
+span that describe the comparative value of two elements in the figure.
+
+2. [Single] Count:
+
+span that describe the number of elements (bars, lines) in the figure. 
+
+3. [Single] Figure type (horizontal/vertical, bar, pie, line chart):
+
+span that describe the type of the figure.
+
+4. [Single] Label name (or a re-description of ...):
+
+span that mention the label name of an element, usually on the axis (if a bar chart), or on the legend (if a pie chart). 
+
+5. [Single] Minimum/maximum/majority/minority:
+
+span that mention the maximum or minimum element in the figure.
+
+6. [Single] Value (presenting a value or a supporting value):
+
+span that presents the value of an element in the figure, e.g. "30% of people prefer cycling because it is healthier". 
+
+7. [Single] Title (or a re-description of ...):
+
+span that describes/re-iterates the title of the figure. 
+
+8. [Single] Overall trend (usually across more than two labels):
+
+span that describe a high-level insight of the figure.
+
+9. Broken (this exercise lacks figure OR is a table)
+
+tag the exercise identifier (3-4 digits at the beginning) as broken exercise. 
 
 
 

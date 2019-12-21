@@ -4,7 +4,7 @@
 
 * Selection Procedure for Tags	
 * Initial Annotation Guideline	
-    - An Annotation Example in the Email	
+    - The Original Word/phrase-level Annotation Example	
     - Annotation Guideline	
 * Switching the Annotation Level	
     - Annotator 2 Raising Concerns	
@@ -21,7 +21,7 @@ Among the 8 single-type tags, FA populated “Count” as one of the 8 single-ty
 
 ## Initial Annotation Guideline
 
-### An Annotation Example in the Email 
+### The Original Word/phrase-level Annotation Example
 
 ![An Annotation Example - please click](./Annotation-guideline.png)
 

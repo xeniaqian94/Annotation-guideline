@@ -25,7 +25,7 @@ Among the 8 single-type tags, FA populated “Count” as one of the 8 single-ty
 
 ### The Old Word/phrase-level Annotation Example
 
-![An Annotation Example - please click](./Annotation-guideline.png)
+![An Old Annotation Example - please click](./Annotation-guideline.png)
 
 ### Annotation Guideline
 
